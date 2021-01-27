@@ -30,7 +30,7 @@ namespace GitHub.Services.Common
         /// </summary>
         public VssHttpRequestSettings(Guid sessionId)
         {
-            this.AllowAutoRedirect = false;
+            this.AllowAutoRedirect = true;
             this.CompressionEnabled = true;
             this.ExpectContinue = true;
             this.BypassProxyOnLocal = true;
